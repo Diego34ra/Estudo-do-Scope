@@ -9,7 +9,7 @@ import org.springframework.context.annotation.Scope;
 public class Beans {
 
     @Bean
-    @Scope("Prototype")
+    @Scope("prototype")
     public Remetente remetente(){
         System.out.println("Criando um objeto Remetente");
         Remetente remetente = new Remetente();
